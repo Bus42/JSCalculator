@@ -1,0 +1,94 @@
+.head {
+  height: 10px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+header{
+  margin: 1em 2em;
+}
+body {
+  font-family: 'Audiowide', cursive;
+  background-color: #696969;
+}
+.calculatorBody {
+  position: fixed;
+  background-color: #353567;
+  border-radius: 18px;
+  display: flex-row;
+  justify-content: center;
+  width: 300px;
+  height: 505px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #131535;
+}
+.screen {
+  display: flex;
+  width: 220px;
+  padding: 12px;
+  background-color: #327332;
+  color: white;
+  word-wrap: break-word;
+  margin: .5em auto;
+  justify-content: flex-end;
+  border-radius: 8px;
+  border: 2px solid #135713;
+}
+.historyScreen{
+  display: flex;
+  width: 228px;
+  padding: 8px;
+  background-color: #327332;
+  color: white;
+  font-size: .8em;
+  word-wrap: break-word;
+  margin: 1em auto;
+  justify-content: flex-end;
+  border-radius: 8px;
+  border: 2px solid #135713;
+}
+.buttons {
+  padding: 8px;
+  display: flex-row nowrap;
+}
+.btnRow {
+  display: flex;
+  justify-content: center;
+}
+button {
+  font-family: 'Audiowide', cursive;
+  font-size: 1.1em;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: #dfd8d0;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #bfb8b0;
+}
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+button:focus {
+  outline: none;
+  background-color: #bdb6b0;
+}
+.hidden {
+  opacity: 0;
+}
+.equals {
+  width: 110px;
+}
+footer {
+  font-size: .7em;
+  margin-top: 0.25em;
+}
+.me {
+  color: #AC3535;
+  margin-left: .25em;
+}
