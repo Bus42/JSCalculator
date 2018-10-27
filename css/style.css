@@ -92,3 +92,11 @@ footer {
   color: #AC3535;
   margin-left: .25em;
 }
+@media (max-width: 350px) {
+  .calculatorBody {
+    transform: scale(0.8)
+  }
+  footer {
+    font-size: .5em;
+  }
+}
