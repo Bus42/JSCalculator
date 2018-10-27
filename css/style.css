@@ -69,6 +69,7 @@ button {
   border-radius: 8px;
   background-color: #dfd8d0;
   box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #bfb8b0;
+  cursor: pointer;
 }
 button:active {
   transform: translate(0px, 3px);
